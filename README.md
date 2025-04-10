@@ -12,15 +12,15 @@ A Neovim/Vim plugin to browse and restore `tmux-resurrect` sessions using Telesc
 > - `nvim-lua/plenary.nvim`
 > - `tmux-resurrect` installed and previously saved sessions
 
+### Load the plugin using the setup method
+```lua
+require("tmux_resurrect").setup()
+```
+
 ## Usage
 
 * Use `:TmuxResurrect` to open a Telescope picker of saved tmux sessions.
 * Browse the list with preview support for panes and commands.
-
-##### Example of setup function:
-```lua
-require("tmux_resurrect").setup()
-```
 
 ## Notes
 
